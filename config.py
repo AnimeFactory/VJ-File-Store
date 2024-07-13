@@ -32,7 +32,7 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "21016163"))
 API_HASH = environ.get("API_HASH", "365f3421c4243310e1c738e2b6fb63a1")
-ADMINS = int(environ.get("ADMINS", "5806054139"))
+ADMINS = int(environ.get("ADMINS", "5806054139 5914356480 5881638979 6021953357"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://gokumuikaioken20times:@qazplmwsxoknABC123@cluster0.4ed1fpj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -78,7 +78,7 @@ class Var(object):
     MULTI_CLIENT = False
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '1'))
+    WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002177501438'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
