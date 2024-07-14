@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "BulmaTheFileStoreBot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "BulmaTheFileStore_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/1f7fbd2bd8a674b42db3a.jpg https://te.legra.ph/file/b458d921a12b273d35a53.jpg https://te.legra.ph/file/5b0c2f8fc9adfc24ea6d2.jpg https://te.legra.ph/file/8df5b8ba947a2485d22d5.jpg https://te.legra.ph/file/eeb53c14e3487afbb8915.jpg https://te.legra.ph/file/a2be48e58a08d202e5030.jpg https://te.legra.ph/file/e130e2a1d638991560f1d.jpg https://te.legra.ph/file/ba06d9068a53eb895eb04.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
